@@ -1,5 +1,5 @@
 
-import { capitalize, reverseString} from '../src/index';
+import { capitalize, reverseString, calculator} from '../src/index';
 
 
 describe('capitalize', () => {
@@ -29,5 +29,20 @@ describe('reverseString', () => {
     })
     test('reverses correctly a string with punctuation', () => {
         expect(reverseString('Hello!')).toBe('!olleH');
+    })
+});
+
+describe('calculator', () => {
+    test('Tests Addition', () => {
+        expect(calculator.add(6,2)).toBe(8);
+    })
+    test('Tests Subtraction', () => {
+        expect(calculator.subtraction(6,2)).toBe(4);
+    })
+    test('Tests Mutliplication', () => {
+        expect(calculator.multiplication(6,2)).toBe(12);
+    })
+    test('Tests Division', () => {
+        expect(calculator.division(6,2)).toBe(3);
     })
 });

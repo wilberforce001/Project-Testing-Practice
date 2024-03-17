@@ -7,6 +7,6 @@ The next step was to create a Webpack configuration file 'webpack.config.js' whi
 
 Installed Babel and necessary presets as dev dependencies
 
-Wrote describe function in my test file that performs capitalization
+Wrote describe function in my test file that performs what is expected such as capitalization, reversing of strings etc. 
 
-Implemented reverse function that reverses the string 
+Created a calculator object that contains functions for the basic operations such as add, subtract, divide, and multiply. Each of the functions should take two numbers and return the correct calculation.

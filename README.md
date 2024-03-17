@@ -1,6 +1,7 @@
 Project: Testing Practice
 
-The objective of this project was to learn how to test code in while working on a project to ensure that it works as expected even under different conditions.
+The objective of this project was to learn how to test code while working on a project to ensure that it works as expected even under different conditions.
+
 Testing is important in achieving the following;
     1. Ensuring code quality
     2. Facilitating refactoring
